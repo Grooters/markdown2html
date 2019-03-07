@@ -68,7 +68,7 @@ public class Main {
             BufferedReader reader= new BufferedReader(new FileReader(config));
             outPath=reader.readLine();
             if(reader.readLine()!=null && reader.readLine().equals("true")){
-//                execute("npm install -g i5ting_toc");
+                execute("npm install -g i5ting_toc");
             }
         } catch (IOException e) {
             e.printStackTrace();
